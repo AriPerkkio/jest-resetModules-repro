@@ -1,0 +1,12 @@
+{
+  "name": "jest-cache-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watchPathIgnorePatterns=dynamically-generated-file.js"
+  },
+  "devDependencies": {
+    "jest": "24"
+  }
+}
